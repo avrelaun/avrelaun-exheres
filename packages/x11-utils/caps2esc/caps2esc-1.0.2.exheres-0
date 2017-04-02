@@ -1,0 +1,6 @@
+# Copyright 2017 Julien Lequertier <julien@avrelaun.com> 
+# Distributed under the terms of the GNU General Public License v3
+
+require caps2esc
+
+PLATFORMS="~amd64"
