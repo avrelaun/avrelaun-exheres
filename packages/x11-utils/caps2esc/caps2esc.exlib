@@ -1,11 +1,9 @@
 # Copyright 2017 Julien Lequertier <julien@avrelaun.com> 
 # Distributed under the terms of the GNU General Public License v3
 
-require systemd-service github [ user=oblitum ]
+require systemd-service github [ user=oblitum tag=v${PV} ]
 
 SUMMARY="Transforming the most useless key ever in the most useful one"
-HOMEPAGE="https://github.com/oblitum/${PN}"
-DOWNLOADS="https://github.com/oblitum/${PN}/archive/v${PV}.tar.gz"
 
 LICENCES="GPL-3"
 SLOT="0"
