@@ -14,7 +14,7 @@ DEPENDENCIES="
 "
 
 src_compile() {
-    edo ${CC} ${CFLAGS} ${LDFLAGS} caps2esc.c -o caps2esc -I/usr/include/libevdev-1.0 -levdev -ludev
+    edo ${CC} ${CFLAGS} ${LDFLAGS} caps2esc.c -o caps2esc -I /usr/$(exhost --target)/include/libevdev-1.0 -levdev -ludev
 }
 
 src_install() {
